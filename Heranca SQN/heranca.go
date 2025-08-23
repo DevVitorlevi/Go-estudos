@@ -16,7 +16,7 @@ type student struct {
 
 func main() {
 	p1 := person{"Vitor", 17, 1.71}
-	st1 := student{p1, "Desenvolvimento de Sistemas", "EEEP Jaime"}
+	st1 := student{p1, "Desenvolvimento de Sistemas ", "EEEP Jaime"}
 
 	fmt.Println(st1)
 }
